@@ -2,20 +2,21 @@
 
 # Software Engineer
 
-**Swift · SwiftUI · Kotlin · Spring Boot**
+**iOS · macOS · Android · Kotlin & Java Backend**
 
-Building apps and the systems behind them — from native UI to distributed backend.
+Building native apps and the services behind them — end to end.
 
 <br>
 
-[![Swift](https://img.shields.io/badge/Swift-111111?style=flat-square&logo=swift&logoColor=white)](https://www.swift.org/)
+[![Swift](https://img.shields.io/badge/Swift_6-111111?style=flat-square&logo=swift&logoColor=white)](https://www.swift.org/)
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-111111?style=flat-square&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-111111?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
-[![Java](https://img.shields.io/badge/Java-21-111111?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
-[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-111111?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
-[![Kafka](https://img.shields.io/badge/Apache_Kafka-111111?style=flat-square&logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-111111?style=flat-square&logo=jetpackcompose&logoColor=white)](https://developer.android.com/compose)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-111111?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![Java](https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-111111?style=flat-square&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Kafka](https://img.shields.io/badge/Apache_Kafka-111111?style=flat-square&logo=apachekafka&logoColor=white)](https://kafka.apache.org/)
+[![Docker](https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
 
 </div>
 
@@ -23,37 +24,43 @@ Building apps and the systems behind them — from native UI to distributed back
 
 ## About
 
-I build products end to end: **native apps in Swift and SwiftUI**, and the **Kotlin and Java services** they run on.
+I build products end to end: **native iOS and macOS apps in Swift and SwiftUI**, **Android apps in Kotlin and Jetpack Compose**, and the **Kotlin / Java services on Spring Boot** they talk to.
 
-I care about **reliability, consistency and clean architecture** on both sides of the API — from UI and app logic to API contracts, event-driven backends and production troubleshooting.
+I care about **reliability, clean architecture and explicit contracts** on both sides of the API — from UI, widgets and in-app purchases to OpenAPI contracts, event-driven backends, testing and CI.
 
 ---
 
 ## Tech Stack
 
-**Apple Platforms**
+**iOS & macOS**
 
-`Swift` · `SwiftUI`
+`Swift 6` · `SwiftUI` · `UIKit` · `AppKit` · `Observation` · `Combine` · `Swift Concurrency` · `SwiftData` · `Swift Package Manager`
 
-**JVM**
+`WidgetKit` · `App Intents` · `StoreKit` · `GameKit` · `MapKit` · `Swift Charts` · `PhotosUI` · `EventKit` · `CoreLocation` · `MultipeerConnectivity` · `UserNotifications` · `CryptoKit` · `Keychain`
 
-`Kotlin` · `Java 21` · `Spring Boot 3` · `Spring Security` · `Spring Cloud` · `Vert.x`
+**Android**
 
-**Messaging**
+`Kotlin` · `Jetpack Compose` · `Material 3` · `Navigation Compose` · `Coroutines` · `kotlinx.serialization` · `OkHttp` · `Coil` · `DataStore` · `Firebase Cloud Messaging`
 
-`Apache Kafka` · `RabbitMQ`
+**Backend**
 
-**Databases & Storage**
+`Kotlin` · `Java 21+` · `Spring Boot` · `Spring Security` · `OAuth2 / JWT` · `Spring Cloud` · `WebSocket` · `Vert.x` · `OpenAPI / springdoc`
 
-`PostgreSQL` · `Oracle` · `YDB` · `Redis` · `Liquibase`
+**Messaging & Data**
 
-**Infrastructure & DevOps**
+`Apache Kafka` · `RabbitMQ` · `PostgreSQL` · `Oracle` · `YDB` · `Redis` · `Liquibase` · `S3 / MinIO`
 
-`Kubernetes` · `Docker` · `Prometheus`
+**Web**
 
-**Security & Integration**
+`TypeScript` · `React` · `Next.js` · `Tailwind CSS`
 
-`OpenAPI` · `Keycloak` · `Vault` · `Resilience4j`
+**Infrastructure & Tooling**
+
+`Docker` · `Docker Compose` · `Kubernetes` · `GitHub Actions` · `Gradle` · `Maven` · `Prometheus / Micrometer` · `Keycloak` · `Vault` · `Python`
+
+**Testing**
+
+`Swift Testing` · `XCTest / XCUITest` · `JUnit 5` · `Testcontainers` · `ArchUnit`
 
 ---
 
@@ -65,11 +72,12 @@ I care about **reliability, consistency and clean architecture** on both sides o
 
 ### Apps
 
-- Native apps in Swift
-- Declarative UI with SwiftUI
-- App architecture
-- API integration
-- Authentication flows
+- Native iOS, iPadOS & macOS apps
+- Android apps with Compose
+- Home Screen widgets & App Intents
+- In-app purchases & ads
+- Localization
+- Menu bar & system utilities
 
 </td>
 <td valign="top" width="33%">
@@ -78,21 +86,21 @@ I care about **reliability, consistency and clean architecture** on both sides o
 
 - Microservices
 - Event-driven architecture
-- Asynchronous processing
 - Contract-first API design
-- Authentication & authorization
-- Containerized deployments
+- Auth & token-based security
+- Real-time updates over WebSocket
+- Media storage on S3
 
 </td>
 <td valign="top" width="33%">
 
 ### Reliability
 
-- Fault tolerance
-- Idempotency
-- Retry strategies
+- Fault tolerance & idempotency
 - Data consistency
 - Observability
+- Integration testing
+- CI pipelines
 - Production troubleshooting
 
 </td>
@@ -103,12 +111,9 @@ I care about **reliability, consistency and clean architecture** on both sides o
 
 ## Domain Knowledge
 
-**Payments & Fintech**
+**Payments & Fintech** — transaction processing and routing, clearing and settlement, dispute and claim workflows, integrations with payment system participants.
 
-- Transaction processing and routing
-- Clearing and settlement
-- Dispute and claim workflows
-- Integrations with payment system participants
+**Sports & Booking** — club and venue catalogs, events, player accounts and scheduling apps.
 
 ---
 
